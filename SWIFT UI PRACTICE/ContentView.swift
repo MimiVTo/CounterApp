@@ -38,7 +38,7 @@ struct ContentView: View {
                 }, label: {
                     Text("Increment")
                     //styling
-                        .padding(5)
+                        .padding(10)
                         .background(Color.blue)
                     //Background color blue
                         .foregroundColor(.white)
@@ -53,7 +53,7 @@ struct ContentView: View {
                 }, label: {
                     Text("Decrement")
                     //styling
-                        .padding(5)
+                        .padding(10)
                         .background(Color.blue)
                     //Background color blue
                         .foregroundColor(.white)
@@ -62,6 +62,7 @@ struct ContentView: View {
                     //ROUND THE CORNERS
                 })
             }
+            
         }
         //starter code
         .padding()
