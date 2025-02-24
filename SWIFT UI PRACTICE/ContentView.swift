@@ -36,7 +36,7 @@ struct ContentView: View {
                 Button(action: {
                     increment()
                 }, label: {
-                    Text("‪‪Increment")
+                    Text("Increment")
                     //styling
                         .padding(5)
                         .background(Color.blue)
@@ -51,7 +51,7 @@ struct ContentView: View {
                 Button(action: {
                     decrement()
                 }, label: {
-                    Text("‪‪Decrement")
+                    Text("Decrement")
                     //styling
                         .padding(5)
                         .background(Color.blue)
